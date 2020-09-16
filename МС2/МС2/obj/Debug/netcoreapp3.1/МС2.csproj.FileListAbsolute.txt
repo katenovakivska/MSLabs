@@ -1,0 +1,13 @@
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.exe
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.deps.json
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.runtimeconfig.json
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.runtimeconfig.dev.json
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.dll
+C:\Users\Kateryna\source\repos\МС2\МС2\bin\Debug\netcoreapp3.1\МС2.pdb
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.csprojAssemblyReference.cache
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.AssemblyInfoInputs.cache
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.AssemblyInfo.cs
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.csproj.CoreCompileInputs.cache
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.dll
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.pdb
+C:\Users\Kateryna\source\repos\МС2\МС2\obj\Debug\netcoreapp3.1\МС2.genruntimeconfig.cache

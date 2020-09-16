@@ -1,0 +1,10 @@
+C:\Users\Kateryna\source\repos\MS1\MS1\bin\Debug\MS1.exe.config
+C:\Users\Kateryna\source\repos\MS1\MS1\bin\Debug\MS1.exe
+C:\Users\Kateryna\source\repos\MS1\MS1\bin\Debug\MS1.pdb
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.csprojAssemblyReference.cache
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.Properties.Resources.resources
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.csproj.GenerateResource.cache
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.csproj.CoreCompileInputs.cache
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.exe
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.pdb
+C:\Users\Kateryna\source\repos\MS1\MS1\obj\Debug\MS1.Charts.resources
