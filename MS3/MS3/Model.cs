@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MS3
 {
     public class Model
     {
-        private List<Element> list = new List<Element>();
+        public List<Element> list = new List<Element>();
         public double TNext { get; set; }
         public double TCurrent { get; set; }
         int Event { get; set; }
+
+        public List<Element> sortedList = new List<Element>();
         public Model(List<Element> elements)
         {
             list = elements;
@@ -17,27 +20,23 @@ namespace MS3
             Event = 0;
             TCurrent = TNext;
         }
-        public void Simulate(double timeModeling, Create c)
+        public void Simulate(double timeModeling)
         {
-            Element prev = new Element();
-            prev.NextElements = new List<Element>();
-            prev.NextElements.Add(c);
+            int prev = -1;
             while (TCurrent < timeModeling)
             {
                 TNext = Double.MaxValue;
-                double minTNext = TNext;
+
                 foreach (Element e in list)
                 {
-                    if (e.TNext < TNext && e.TNext < minTNext && prev.NextElements.Contains(e))
+                    if (e.TNext < TNext)
                     {
-                        minTNext = e.TNext;
                         TNext = e.TNext;
                         Event = list.IndexOf(e);
-                        
                     }
                 }
-                prev = (Element)list[Event];
-                Console.WriteLine($"\nEvent in: {list[Event].Name} time = {TNext}");
+                if(prev != Event)
+                Console.WriteLine($"Event in: {list[Event].Name} time = {TNext}");
                 foreach (Element e in list)
                 {
                     e.CountStatistics(TNext - TCurrent);
@@ -48,6 +47,7 @@ namespace MS3
                     e.TCurrent = TCurrent;
                 }
                 list[Event].OutAct();
+
                 foreach (Element e in list)
                 {
                     if (e.TNext == TCurrent)
@@ -55,11 +55,11 @@ namespace MS3
                         e.OutAct();
                     }
                 }
-               //PrintInfo();
-             }
+                prev = Event;
+                //PrintInfo();
+            }
              PrintResult();
         }
-
 
         public void PrintInfo()
         {
@@ -71,12 +71,14 @@ namespace MS3
 
         public void PrintResult()
         {
-           // Console.WriteLine("\n-------------RESULTS-------------");
+            Console.WriteLine("\n-------------RESULTS-------------");
             foreach (Element e in list)
             {
+                Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                 e.printResult();
-                if (e.GetType() == typeof(Process)) 
+                if (e.GetType() == typeof(Process) && e.Name != "DISPOSE") 
                 {
+                    
                     Process p = (Process)e;
                     p.AverageQueueTime = p.AverageQueue / p.Quantity;
                     p.AverageQueue /= TCurrent;
@@ -86,8 +88,7 @@ namespace MS3
                     //Console.WriteLine($"Delay = {p.AverageDelay} QLength = {p.MaxQueueObserved} MaxParallel = {p.MaxParallel} AvgQLength = {p.AverageQueue} " +
                     //$"MaxQLength = {p.MaxQueueObserved} AvgWorkload = {p.AverageWorkload} MaxWorkload = {p.MaxWorkload} AvgProcTime = {p.AverageProcessingTime}" +
                     //$" Failure = {p.Failure} PFailure = {p.ProbabilityFailure}    AvgQTime = {p.AverageQueueTime}");
-                    //Console.WriteLine($"DisposeQuantity = {p.dispose.ExitQuantity}  Quantity = {p.Quantity}");
-                    Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
                     Console.WriteLine($"mean length of queue = {p.AverageQueue}");
                     Console.WriteLine($"max observed queue length = {p.MaxQueueObserved}");
                     Console.WriteLine($"failure probability = {p.ProbabilityFailure}");

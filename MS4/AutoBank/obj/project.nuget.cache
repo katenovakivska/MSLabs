@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rYaX1nX9z2uOySWVi1rXtaUcdjE/dBA3Vz9ppdcddk6/CZ5umeIC+Pi06LyN6DjV97A93m5iW/dtmG1JZAHQng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\AutoBank\\AutoBank.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kateryna\\.nuget\\packages\\mathnet.numerics\\4.12.0\\mathnet.numerics.4.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

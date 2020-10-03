@@ -18,6 +18,7 @@ namespace MS3
         public double MaxWorkload { get; set; }
         public int MaxParallel { get; set; }
         public List<Process> NextProcesses { get; set; }
+        public int Index { get; set; }
 
         public Random random = new Random();
 
@@ -41,22 +42,23 @@ namespace MS3
         }
         public override void InAct(int numberOfTasks)
         {
+            
             int numberOfFreeDevices = MaxParallel - State;
             if (numberOfTasks <= numberOfFreeDevices && numberOfTasks > 0)
             {
                 State += numberOfTasks;
                 numberOfTasks = 0;
             }
-            else if(numberOfTasks > numberOfFreeDevices)
+            else if (numberOfTasks > numberOfFreeDevices)
             {
                 numberOfTasks -= numberOfFreeDevices;
                 State = MaxParallel;
             }
-
+            
             TNext = TCurrent + GetDelay();
             if (numberOfTasks > 0)
             {
-               int numberOfFreePlaces = MaxQueueLength - QueueLength;
+                int numberOfFreePlaces = MaxQueueLength - QueueLength;
                 if (numberOfTasks < numberOfFreePlaces)
                 {
                     QueueLength += numberOfTasks;
@@ -68,7 +70,7 @@ namespace MS3
                     QueueLength = MaxQueueLength;
                 }
             }
-            
+
             if (numberOfTasks > 0)
             {
                 Failure += numberOfTasks;
@@ -85,13 +87,14 @@ namespace MS3
                 State += 1;
                 TNext = TCurrent + GetDelay();
             }
-            
-            if (NextProcesses.Count != 0)
+            if (NextProcesses.Count != 0 && Index != 0)
             {
                 int index = random.Next(0, NextProcesses.Count);
-                Process nextProcess = NextProcesses[index];
+                Process nextProcess = NextProcesses[index]; 
                 nextProcess.InAct(1);
+                Console.WriteLine($"IN FUTURE goes from {Name} to {nextProcess.Name} t = {nextProcess.TNext}");
             }
+            Index++;
         }
         public override void PrintInfo()
         {

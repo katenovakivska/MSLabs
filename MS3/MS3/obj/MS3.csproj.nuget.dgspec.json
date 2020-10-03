@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kateryna\\source\\repos\\MS3\\MS3\\MS3.csproj": {}
+    "C:\\Users\\Kateryna\\source\\repos\\MS\\MS3\\MS3\\MS3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kateryna\\source\\repos\\MS3\\MS3\\MS3.csproj": {
+    "C:\\Users\\Kateryna\\source\\repos\\MS\\MS3\\MS3\\MS3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS3\\MS3\\MS3.csproj",
+        "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS3\\MS3\\MS3.csproj",
         "projectName": "MS3",
-        "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS3\\MS3\\MS3.csproj",
+        "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS3\\MS3\\MS3.csproj",
         "packagesPath": "C:\\Users\\Kateryna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS3\\MS3\\obj\\",
+        "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS3\\MS3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

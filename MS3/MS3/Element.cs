@@ -13,9 +13,10 @@ namespace MS3
         public string Distribution { get; set; }
         public int Quantity { get; set; }
         public double TCurrent { get; set; }
-        protected int State { get; set; }
+        public int State { get; set; }
         public Element NextElement { get; set; }
         public List<Element> NextElements { get; set; }
+        public bool IsNext { get; set; }
         private static int NextId;
         public int Id { get; set; }
         public Element()
@@ -39,6 +40,7 @@ namespace MS3
             State = 0;
             Id = NextId;
             NextId++;
+            IsNext = true;
             NextElements = new List<Element>();
             Name = "element " + Name;
         }

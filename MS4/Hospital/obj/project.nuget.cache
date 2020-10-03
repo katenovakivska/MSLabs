@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lrqI67ej+fLauyec7rSNvQ51D8rPzKo7ZIxaO0yWnZPO7hFxVkH9GEMfuD3aZBKkEznFR7p76wLGLlazqkGR2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\Hospital\\Hospital.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kateryna\\.nuget\\packages\\mathnet.numerics\\4.12.0\\mathnet.numerics.4.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MathNet.Numerics/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
+      "MS4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MathNet.Numerics": "4.12.0"
+        },
+        "compile": {
+          "bin/placeholder/MS4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MS4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathNet.Numerics/4.12.0": {
+      "sha512": "U6R74mc1PHD3HbbevY5Z6AS07toye0PBooKPpCyD9sCc5HDPlRl+lmiWl+zy8L7IEHIH0Bvkx1sVqBY++5X5eA==",
+      "type": "package",
+      "path": "mathnet.numerics/4.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.12.0.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "MS4/1.0.0": {
+      "type": "project",
+      "path": "../MS4/MS4.csproj",
+      "msbuildProject": "../MS4/MS4.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MS4 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kateryna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS4\\Hospital\\Hospital.csproj",
+      "projectName": "Hospital",
+      "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\Hospital\\Hospital.csproj",
+      "packagesPath": "C:\\Users\\Kateryna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\Hospital\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kateryna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj": {
+              "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
