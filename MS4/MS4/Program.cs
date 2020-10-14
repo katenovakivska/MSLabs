@@ -39,8 +39,8 @@ namespace MS4
             Process d = new Process(0, "DISPOSE", "Exponential", 0, 1);
 
             c.NextElement = p1;
-            p1.NextProcesses = new List<Process> { p2, p3, p4/*, null*/ };
-            p1.Probabilities = new List<Probability> { new Probability(0.15), new Probability(0.13), new Probability(0.3)/*, new Probability(0.42)*/ };
+            p1.NextProcesses = new List<Process> { p2, p3, p4 };
+            p1.Probabilities = new List<Probability> { new Probability(0.15), new Probability(0.13), new Probability(0.3) };
             p2.NextProcesses = new List<Process> { p1 };
             p3.NextProcesses = new List<Process> { p1 };
             p4.NextProcesses = new List<Process> { p1 };

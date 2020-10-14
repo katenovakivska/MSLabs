@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS4\\AutoBank\\AutoBank.csproj",
+      "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\AutoBank\\AutoBank.csproj",
       "projectName": "AutoBank",
-      "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\AutoBank\\AutoBank.csproj",
+      "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\AutoBank\\AutoBank.csproj",
       "packagesPath": "C:\\Users\\Kateryna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\AutoBank\\obj\\",
+      "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\AutoBank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -89,8 +89,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj": {
-              "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj"
+            "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\MS4\\MS4.csproj": {
+              "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\MS4\\MS4.csproj"
             }
           }
         }

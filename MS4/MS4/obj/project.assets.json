@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj",
+      "projectUniqueName": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\MS4\\MS4.csproj",
       "projectName": "MS4",
-      "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\MS4.csproj",
+      "projectPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\MS4\\MS4.csproj",
       "packagesPath": "C:\\Users\\Kateryna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS4\\MS4\\obj\\",
+      "outputPath": "C:\\Users\\Kateryna\\source\\repos\\MS\\MS4\\MS4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
