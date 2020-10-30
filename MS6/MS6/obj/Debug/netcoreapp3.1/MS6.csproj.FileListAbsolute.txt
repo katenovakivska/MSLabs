@@ -1,0 +1,13 @@
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.exe
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.deps.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.runtimeconfig.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.runtimeconfig.dev.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.dll
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\MS6.pdb
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.csprojAssemblyReference.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.AssemblyInfoInputs.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.AssemblyInfo.cs
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.csproj.CoreCompileInputs.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.dll
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.pdb
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\MS6.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.exe
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.deps.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.runtimeconfig.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.runtimeconfig.dev.json
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.dll
+C:\Users\Kateryna\source\repos\MS6\MS6\bin\Debug\netcoreapp3.1\ConveyorSystem.pdb
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.csprojAssemblyReference.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.AssemblyInfoInputs.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.AssemblyInfo.cs
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.csproj.CoreCompileInputs.cache
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.dll
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.pdb
+C:\Users\Kateryna\source\repos\MS6\MS6\obj\Debug\netcoreapp3.1\ConveyorSystem.genruntimeconfig.cache
